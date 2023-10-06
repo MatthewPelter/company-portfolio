@@ -1,0 +1,222 @@
+html {
+  scroll-behavior: smooth;
+}
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.container .row .portItem {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+}
+.container .row .portItem img {
+  height: 300px;
+  width: auto;
+  display: block;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  background: #2196f3;
+}
+.container {
+  padding: 0 3% 3% 3%;
+  margin: -50px auto 90px;
+  max-width: 1300px;
+  background: white;
+  z-index: 99999;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+nav {
+  background: #ffffff;
+  width: 100%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+nav .mainNavUL {
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+nav .mainNavUL li {
+  display: inline-block;
+}
+nav .mainNavUL li a {
+  display: block;
+  font-family: "Roboto";
+  font-size: 18px;
+  padding: 25px 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #333;
+  transition: 300ms all ease-in-out;
+}
+nav .mainNavUL li a:hover {
+  background: #d9d9d9;
+  color: #000;
+  transition: 300ms all ease-in-out;
+}
+.logo-wrap {
+  color: #333;
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-size: 18px;
+  padding: 25px 30px;
+  text-transform: uppercase;
+}
+blue {
+  color: #009dff;
+}
+/* Jumbo Banner At Top */
+
+.skateJumbo {
+  background: url("https://i.gyazo.com/bb4070ef752a40c9d62611358050e74e.jpg")
+    center center;
+  height: 600px;
+  width: 100%;
+  display: table;
+  background-size: cover;
+  border-bottom: 3px #222 solid;
+}
+.skateJumbo .jumbowrap {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.skateJumbo .jumbowrap h2 {
+  font-family: "Roboto";
+  color: white;
+  font-weight: 200;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px #000;
+}
+.skateJumbo .jumbowrap h3 {
+  font-family: "Roboto";
+  color: white;
+  font-weight: 200;
+  font-size: 20px;
+  text-transform: capitalize;
+  text-shadow: 1px 1px #000;
+}
+/* End Jumbo Banner */
+
+.styleHR {
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.header {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 50px;
+  text-transform: uppercase;
+}
+.container .row .itemAbout img {
+  padding: 20px 0;
+}
+.container .row .itemAbout .itemText {
+  text-align: center;
+}
+.container .row .dev {
+  float: left;
+}
+.container .row .itemAbout {
+  width: 25%;
+  box-sizing: border-box;
+  padding: 12px 10px;
+  vertical-align: top;
+}
+@media screen and (max-width: 600px) {
+  .container .row .itemAbout {
+    width: 100%;
+  }
+  .container .row .portItem {
+    width: 100%;
+  }
+}
+.container .priceItem {
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding: 40px;
+  margin-bottom: 35px;
+  border: 2px solid #009dff;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.container .priceItem .price {
+  font-size: 60px;
+  font-weight: bold;
+  border-bottom: 1px solid #009dff;
+  color: #009dff;
+  padding-bottom: 10px;
+}
+.container .priceItem .descItem {
+  font-size: 15px;
+  font-weight: 300;
+  padding-top: 10px;
+}
+.container .priceItem .headerP {
+  width: 50%;
+  float: left;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.container .priceItem .itemList {
+  float: right;
+}
+.container .priceItem .itemList li {
+  list-style-type: square;
+  text-align: left;
+  border-bottom: 2px solid #009dff;
+  padding: 10px;
+}
+
+.social {
+  text-align: center;
+  padding: 50px 0;
+}
+.icon {
+  color: #3d3d3d;
+  text-decoration: none;
+  font-size: 4rem;
+  margin: 3.5%;
+  transition: ease 400ms;
+}
+
+.codepen:hover {
+  color: #282e42;
+}
+
+.behance:hover {
+  color: #2a475e;
+}
+
+.email:hover {
+  color: #e67e22;
+}
+
+.dribbble:hover {
+  color: #000;
+}
